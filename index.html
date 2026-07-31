@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edo-habit｜法的文書</title>
+<meta name="description" content="Edo-habit のプライバシーポリシーと利用規約。">
+<style>
+  :root{
+    --paper:#f2ece0;
+    --paper-deep:#e8e0d0;
+    --sumi:#241f1a;
+    --sumi-soft:#544c42;
+    --ai:#26456f;
+    --ai-pale:#b6c3d6;
+    --bengara:#8e4433;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--sumi);
+    font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP","Meiryo",sans-serif;
+    font-size:16px;line-height:1.95;letter-spacing:.02em;
+  }
+  .sheet{max-width:36rem;margin:0 auto;padding:0 1.4rem 5rem}
+
+  .kosatsu{margin:3.4rem 0 2.8rem;filter:drop-shadow(0 2px 0 rgba(36,31,26,.06))}
+  .kosatsu .roof{
+    height:.9rem;background:var(--sumi);
+    clip-path:polygon(4% 100%, 50% 0, 96% 100%);
+  }
+  .kosatsu .board{
+    background:var(--paper-deep);border:1px solid var(--ai-pale);
+    border-top:3px solid var(--sumi);
+    padding:1.6rem 1.4rem 1.5rem;position:relative;text-align:center;
+  }
+  .kosatsu .board::before,
+  .kosatsu .board::after{
+    content:"";position:absolute;top:.7rem;width:6px;height:6px;
+    border-radius:50%;background:var(--bengara);opacity:.75;
+  }
+  .kosatsu .board::before{left:1rem}
+  .kosatsu .board::after{right:1rem}
+  .brand{font-size:.72rem;letter-spacing:.34em;color:var(--ai);text-transform:uppercase;margin:0 0 .7rem}
+  h1{
+    font-family:"Hiragino Mincho ProN","Yu Mincho","YuMincho","Noto Serif JP",serif;
+    font-size:1.45rem;font-weight:600;letter-spacing:.16em;margin:0;line-height:1.5;
+  }
+
+  .lead{
+    font-family:"Hiragino Mincho ProN","Yu Mincho","YuMincho","Noto Serif JP",serif;
+    font-size:1.02rem;line-height:2.1;margin:0 0 2.4rem;
+    padding-left:1rem;border-left:2px solid var(--ai);
+  }
+
+  .doc{
+    display:block;background:var(--paper-deep);
+    border:1px solid var(--ai-pale);
+    padding:1.2rem 1.3rem;margin:0 0 1rem;
+    text-decoration:none;color:var(--sumi);
+    transition:background .15s ease;
+  }
+  .doc:hover{background:#ded4c2}
+  .doc:focus-visible{outline:2px solid var(--bengara);outline-offset:3px}
+  .doc .t{
+    font-family:"Hiragino Mincho ProN","Yu Mincho","YuMincho","Noto Serif JP",serif;
+    font-size:1.06rem;font-weight:600;letter-spacing:.08em;display:block;
+  }
+  .doc .d{display:block;font-size:.88rem;color:var(--sumi-soft);margin-top:.3rem;line-height:1.75}
+
+  footer{
+    margin-top:3rem;padding-top:1.4rem;
+    border-top:1px solid var(--ai-pale);
+    font-size:.85rem;color:var(--sumi-soft);
+  }
+  footer p{margin:0 0 .4rem}
+  footer a{color:var(--ai);text-underline-offset:.25em}
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main class="sheet">
+
+  <div class="kosatsu">
+    <div class="roof"></div>
+    <div class="board">
+      <p class="brand">Edo-habit</p>
+      <h1>法的文書</h1>
+    </div>
+  </div>
+
+  <p class="lead">
+    習慣づくりのアプリ Edo-habit に関する文書を掲げています。
+  </p>
+
+  <a class="doc" href="./privacy.html">
+    <span class="t">プライバシーポリシー</span>
+    <span class="d">どの情報を集めないか、記録がどこに保存されるかについて</span>
+  </a>
+
+  <a class="doc" href="./terms.html">
+    <span class="t">利用規約</span>
+    <span class="d">アプリをお使いいただくうえでの条件について</span>
+  </a>
+
+  <footer>
+    <p>浮世絵ラボ（Edo-habit 開発者）</p>
+    <p><a href="mailto:linux.1988.1@gmail.com">linux.1988.1@gmail.com</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
